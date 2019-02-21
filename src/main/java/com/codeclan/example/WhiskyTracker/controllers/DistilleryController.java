@@ -5,6 +5,7 @@ import com.codeclan.example.WhiskyTracker.repositories.DistilleryRepository.Dist
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.persistence.Entity;
 import java.util.List;
 
 @RestController
